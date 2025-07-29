@@ -3452,7 +3452,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/code-image.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3523,6 +3523,9 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
 				}
 
 	body.is-touch #banner {
